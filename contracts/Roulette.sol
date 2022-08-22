@@ -1,7 +1,7 @@
 pragma solidity ^0.5.0;
 
 import "./BackingContract.sol";
-import "./oraclizeAPI.sol";
+import "openzeppelin-solidity/contracts/oracle/oraclizeAPI.sol";
 import "openzeppelin-solidity/contracts/lifecycle/Pausable.sol";
 
 /**
